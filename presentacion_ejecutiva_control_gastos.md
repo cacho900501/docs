@@ -252,18 +252,7 @@ Responde: **¿qué se compró, a quién, con qué se pagó?**
 
 ---
 
-## 7. Decisiones que necesitamos del dueño
-
-| # | Pregunta | Opciones |
-|---|---|---|
-| 1 | **Si un gasto rebasa el 100% del presupuesto de la orden, ¿se bloquea o solo avisa?** | A) Bloquear — requiere autorización de admin. B) Solo advertir — se guarda con bandera roja. |
-| 2 | **¿Qué tan atrás en el tiempo necesitan cargar estados de cuenta?** | A) Solo del mes actual. B) Últimos 3 meses. C) Histórico completo. |
-
-> **Nota:** El cambio de proveedor en un gasto ya está definido: solo el Gerente de Compras puede hacerlo. Si cambia, el sistema busca OdeC activa del nuevo proveedor o crea una.
-
----
-
-## 8. ¿Qué necesita el ERP?
+## 7. Qué necesita el ERP?
 
 Estos cambios son aparte, en el sistema ERP, para que expenses funcione completo:
 
