@@ -20,7 +20,7 @@
 
 ## 2. ¿Qué falta construir?
 
-### Lo urgente (próximos 3 meses)
+### Lo urgente
 
 **A. Arreglar bugs en el registro de gastos**
 - Que el monto se calcule solo (precio × cantidad)
@@ -44,7 +44,7 @@
 - Poder registrar gastos del taller que no son de una orden específica: renta, luz, papelería, herramientas, etc.
 - Se clasifican por categoría (ya existe el catálogo)
 
-### Lo siguiente (3-6 meses)
+### Lo siguiente
 
 **F. Aliases de proveedores**
 - "AutoZone" en el sistema, pero en el banco aparece como "autozonemx" o "AUTOZONE MERIDA"
