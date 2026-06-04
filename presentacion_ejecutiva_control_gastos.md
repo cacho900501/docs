@@ -5,40 +5,7 @@
 
 ---
 
-## 1. ¿Qué es y para qué sirve?
-
-Un módulo web que se conecta al ERP del taller para **controlar cada peso que se gasta** en refacciones, servicios, fletes y gastos operativos. El objetivo es simple:
-
-> **Que el gasto en refacciones no rebase el 33% de lo que se le cobra al cliente.**
-
-Si una orden de servicio se cobra en $3,000, las refacciones no deben costar más de $990. El sistema lo calcula automáticamente y te avisa con colores.
-
----
-
-## 2. ¿Qué problemas resuelve?
-
-### Hoy (sin el módulo completo)
-
-| Problema | Consecuencia |
-|---|---|
-| No se sabe cuánto se gastó realmente en cada servicio | No se conoce la ganancia real por trabajo |
-| Los tickets y facturas se pierden o guardan en WhatsApp | Imposible conciliar con el banco |
-| Los estados de cuenta del banco usan nombres distintos a los proveedores registrados | Conciliación manual, lenta, errores |
-| Las compras diferidas a meses no se les da seguimiento | Se pierde visibilidad de pagos futuros |
-| No hay forma rápida de ver qué órdenes están rebasadas de gasto | Decisiones tardías |
-
-### Con el módulo completo
-
-| Solución | Beneficio |
-|---|---|
-| Cada gasto se registra contra la orden de compra y se aplica al servicio que corresponde | **Rentabilidad real por servicio** |
-| Evidencia (ticket, factura PDF/XML, foto) adjunta desde celular o computadora | **Todo en un solo lugar, auditable** |
-| El sistema cruza el Excel del banco contra proveedores y alias automáticamente | **Conciliación en minutos, no en horas** |
-| Las compras a meses sin intereses se registran y se ve el calendario de pagos | **Planeación financiera clara** |
-
----
-
-## 3. ¿Qué ya funciona hoy?
+## 1. Qué ya funciona hoy?
 
 | Funcionalidad | Estado |
 |---|---|
@@ -51,7 +18,7 @@ Si una orden de servicio se cobra en $3,000, las refacciones no deben costar má
 
 ---
 
-## 4. ¿Qué falta construir?
+## 2. ¿Qué falta construir?
 
 ### Lo urgente (próximos 3 meses)
 
@@ -99,7 +66,7 @@ Si una orden de servicio se cobra en $3,000, las refacciones no deben costar má
 
 ---
 
-## 5. ¿Quién hace qué? (Roles)
+## 3. ¿Quién hace qué? (Roles)
 
 Hay dos personas que tocan el sistema en el día a día:
 
@@ -122,7 +89,7 @@ Hay dos personas que tocan el sistema en el día a día:
 
 ---
 
-## 6. ¿Cómo se va a ver?
+## 4. ¿Cómo se va a ver?
 
 ### Flujo principal: Registrar un gasto
 
@@ -192,7 +159,7 @@ Hay dos personas que tocan el sistema en el día a día:
 
 ---
 
-## 7. Reportes que va a tener el dueño
+## 5. Reportes que va a tener el dueño
 
 Todos los reportes funcionan **seleccionando un rango de fechas** (desde / hasta). Son 5:
 
@@ -255,7 +222,7 @@ Responde: **¿qué se compró, a quién, con qué se pagó?**
 
 ---
 
-## 8. Fases y tiempos estimados
+## 6. Fases y tiempos estimados
 
 > Desarrollo con IA full-time. Una tarea = horas, no días.
 
@@ -285,7 +252,7 @@ Responde: **¿qué se compró, a quién, con qué se pagó?**
 
 ---
 
-## 9. Decisiones que necesitamos del dueño
+## 7. Decisiones que necesitamos del dueño
 
 | # | Pregunta | Opciones |
 |---|---|---|
@@ -296,7 +263,7 @@ Responde: **¿qué se compró, a quién, con qué se pagó?**
 
 ---
 
-## 10. ¿Qué necesita el ERP?
+## 8. ¿Qué necesita el ERP?
 
 Estos cambios son aparte, en el sistema ERP, para que expenses funcione completo:
 
@@ -310,14 +277,4 @@ Estos cambios son aparte, en el sistema ERP, para que expenses funcione completo
 
 ⏱ **2.5-4 días adicionales en el ERP** (independiente de los 11-15 días de expenses).
 
----
 
-## 11. Resumen
-
-| Métrica | Situación actual | Con el módulo completo |
-|---|---|---|
-| Tiempo para saber rentabilidad de un servicio | No se sabe / cálculo manual | **Inmediato, automático** |
-| Tiempo para conciliar un estado de cuenta | Horas (manual, Excel) | **Minutos (automático con matching)** |
-| Visibilidad de pagos futuros (MSI) | Ninguna / memoria | **Calendario claro de pagos** |
-| Evidencia de gastos | Dispersa (WhatsApp, correos, carpetas) | **Centralizada, por orden, por proveedor** |
-| Control del 33% | Reactivo (cuando ya se pasó) | **Proactivo (semáforo en tiempo real)** |
