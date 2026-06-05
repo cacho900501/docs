@@ -42,7 +42,7 @@
 
 **E. Gastos operativos (sin orden de compra)**
 - Poder registrar gastos del taller que no son de una orden específica: renta, luz, papelería, herramientas, etc.
-- Se clasifican por categoría (ya existe el catálogo)
+- Se clasifican por categoría
 
 ### Lo siguiente
 
